@@ -7,9 +7,17 @@ Usage
 ==========================
 
 The simple way:
+
+By curl
+
 ```bash
-wget https://rawgit.com/tuna/oh-my-tuna/master/oh-my-tuna.py
-python oh-my-tuna.py
+curl -o- https://rawgit.com/tuna/oh-my-tuna/master/oh-my-tuna.py | python
+```
+
+or Wget:
+
+```bash
+wget -qO- https://rawgit.com/tuna/oh-my-tuna/master/oh-my-tuna.py | python
 ```
 
 Change system-wide settings instead of user-wide:
